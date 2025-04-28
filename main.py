@@ -9,7 +9,7 @@ window.title("Writing Text App")
 window.geometry("800x600")
 
 name_label = tk.Label(window, text="Enter your name: ", wraplength=400, justify="left")
-name_label.pack(pady=10)
+name_label.pack(pady=5)
 
 if __name__ == '__main__':
     window.mainloop()
